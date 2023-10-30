@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Odoo",
+      "type": "python",
+      "request": "launch",
+      "stopOnEntry": false,
+      "console": "integratedTerminal",
+      "program": "/odoo/odoo-bin",
+      "args": [
+        "--config=/odoo/odoo.conf"
+        // "--database=db_1_name,db_2_name",
+        // "--update=module1_name,module2_name"
+      ]
+    }
+  ]
+}
