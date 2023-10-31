@@ -8,6 +8,7 @@ sudo apt install kwrite htop neofetch git thorium-browser preload qt5-style-kvan
 wget -O- https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscode.gpg
 echo deb [arch=amd64 signed-by=/usr/share/keyrings/vscode.gpg] https://packages.microsoft.com/repos/vscode stable main | sudo tee /etc/apt/sources.list.d/vscode.list
 sudo apt install code -y
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 sudo apt install fonts-jetbrains-mono fonts-hack fonts-firacode fonts-roboto fonts-open-sans fonts-font-awesome fonts-powerline -y
 cd ~/Downloads/
 ls
